@@ -6,18 +6,27 @@
     
     --color-footer:#47c961;
     --color-medgreen:#35cc53;
+    --color-darkgreen:#2da745;
     --color-lightgreen:#82fc86;
+    --color-stlightgreen:#82fc8688;
 
-    --color-darkYellow:#da7421;
-    --color-yellow:#f4bd28;
-    --color-lightYellow:#fdf2d3;
+    --color-darkYellow:#da7421aa;
+    --color-yellow:#f4bd28aa;
+    --color-lightYellow:#fdf2d3aa;
 
     --color-text: #fafffb;
+    --color-sttext: #fafffb2c;
+    --color-shadow: #2f2f2f8a;
+    --color-lshadow: #8686868a;
+    --color-darkshadow: rgba(0, 0, 0, 0.638);
     --color-black: #000000;
+
+    --img-mies-etusivu: url(./Assets/Images/mies-etusivu-4.jpg);
 
     --gradientcolor-green: linear-gradient(270deg, #35CC53 0%, #FFFFFF 20%);;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap');
 
 
 * {
@@ -25,7 +34,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -35,6 +44,11 @@ body {
 a {
     color: unset;
     text-decoration: none;
+}
+
+@font-face {
+  src: url(./Assets/Fonts/MySoul-Regular.ttf);
+  font-family: MySoul;
 }
 
 

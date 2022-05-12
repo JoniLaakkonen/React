@@ -6,6 +6,16 @@ import "./navBtn.css"
 
 
 function NavBtn() {
+  /*
+    // Kirjaudu ulos
+    const handleAuthentication = () => {
+      if (user) {
+          auth.signOut();
+          navigate('/')
+          
+      } 
+  }*/
+
   return (
     <Link to="signup">
         <button className="navBtn">

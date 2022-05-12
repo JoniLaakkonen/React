@@ -5,7 +5,7 @@
     justify-content: space-around;
 
     color: var(--color-text);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     text-transform: capitalize;
 
@@ -15,12 +15,12 @@
 	border-radius:25px;
     border: 2px solid transparent;
 	cursor:pointer;
-	color:#ffffff;
+	color: var(--color-medgreen);
 	font-family:Arial;
 	font-size:18px;
 	padding: 10px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+	text-shadow:2px 2px 7px var(--color-text);
 
     display: flex;
     justify-content: space-around;
@@ -30,6 +30,14 @@
 
 
 .navBtn:hover {
-    background-color: var(--color-medgreen);
+    background-color: var(--color-sttext);
     border: 2px solid #fff;
+}
+
+@media (max-width:1056px) {
+    .navBtn{
+        text-shadow: none;
+        font-size: 24px;
+        font-weight: 500;
+    }
 }
