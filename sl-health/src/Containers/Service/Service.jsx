@@ -9,9 +9,6 @@ const Service = () => {
   const [isHovered2, setIsHovered2] = useState(true)
   const [isHovered3, setIsHovered3] = useState(false)
 
-  function hovered(arvo){
-    
-  }
     
   const goToRV = e => {
       navigate('/ravintovalmennus')
